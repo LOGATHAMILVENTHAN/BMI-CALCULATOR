@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import { Card } from 'react-bootstrap';
 
 function Calc() {
   
@@ -20,6 +21,9 @@ function Calc() {
 
   return (
     <div>
+      
+     
+     
       <h1>BMI CALCULATOR</h1>
       <h2>Body Mass Index</h2>
 
@@ -44,6 +48,8 @@ function Calc() {
           <p className='result'>{bmi < 18.5 ? 'Underweight' : bmi < 24.9 ? 'Normal weight' : bmi < 29.9 ? 'Overweight' : 'Obese'}</p>
         </div>
       )}
+        
+     
     </div>
   );
 }
